@@ -9,12 +9,12 @@ const Footer = () => {
     class="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:px-6 lg:space-y-10 lg:px-8"
   >
     <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-      <div>
-        <div class="">
-          <Image src={Logo1} className='w-[15rem] h-[8rem] '/>
+      <div className=''>
+        <div className="ml-[6rem] md:ml-0">
+          <Image src={Logo1} className='w-[15rem] h-[8rem] ' alt='/'/>
         </div>
 
-        <p class="max-w-xs  text-gray-500">
+        <p class="max-w-xs  text-gray-500 text-center md:text-left">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
           cupiditate quae nam molestias.
         </p>

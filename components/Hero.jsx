@@ -14,10 +14,10 @@ const Hero = () => {
            
             
             <div className='flex top-0 left-0 right-0 bottom-0 z-[2]'/>
-            <Image src={Foto } className='absolute h-screen object-cover'/>
+            <Image src={Foto } className='absolute h-screen object-cover'alt="/" />
             <div className='p-5 text-[#000000] z-[2] md:ml-[1rem] ml-0 mt-[1rem]'>
            
-              <Image src={Logo} className='h-[15rem] w-[15rem]' />
+              <Image src={Logo} className='h-[15rem] w-[15rem]' alt="/"/>
               <div className='flex justify-center items-center pt-[6rem]'>
               
               <Typed
