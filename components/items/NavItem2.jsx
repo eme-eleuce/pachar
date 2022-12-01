@@ -28,14 +28,14 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-       <Menu.Items className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-[#E9E9EB] shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+       <Menu.Items className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-[#C7C7C7] shadow-lg   focus:outline-none">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-300 text-gray-900' : 'text-gray-700',
+                    active ? 'text-[#0B5DA0]' : 'text-black',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -48,7 +48,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-300 text-gray-900' : 'text-gray-700',
+                    active ? 'text-[#0B5DA0]' : 'text-black',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -61,7 +61,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-300 text-gray-900' : 'text-gray-700',
+                    active ? 'text-[#0B5DA0]' : 'text-black',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -74,7 +74,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-300 text-gray-900' : 'text-gray-700',
+                    active ? 'text-[#0B5DA0]' : 'text-black',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -87,7 +87,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-300 text-gray-900' : 'text-gray-700',
+                    active ? 'text-[#0B5DA0]' : 'text-black',
                     'block px-4 py-2 text-sm'
                   )}
                 >

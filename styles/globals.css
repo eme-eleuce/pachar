@@ -10,3 +10,8 @@ html {
     scroll-behavior: smooth;
     font-family: 'Comfortaa', cursive;
 }
+
+.custom-bg {
+
+    background-image: url('../public/DSC_1998.JPG');
+}
