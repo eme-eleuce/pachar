@@ -31,6 +31,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
       >
        <Menu.Items className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-[#C7C7C7] shadow-lg focus:outline-none">
           <div className="py-1">
+          <Link href='/empresa'>
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -40,10 +41,11 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  {subname1}
+                   {subname1}
                 </a>
               )}
             </Menu.Item>
+            </Link>
             <Link href='/team'>
             <Menu.Item>
               {({ active }) => (
@@ -59,6 +61,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
               )}
             </Menu.Item>
             </Link>
+            <Link href='/work'>
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -72,7 +75,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 </a>
               )}
             </Menu.Item>
-            
+            </Link>
             
           </div>
         </Menu.Items>

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react' 
 import Logo1 from "../public/logo1/pachar-h.png"
 
@@ -144,37 +145,63 @@ const Footer = () => {
         class="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 mt-12"
       >
         <div>
-          <p class="font-medium text-gray-900"> Empresa</p>
+          <p class="font-bold text-[#0B5DA0]"> Empresa</p>
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
+                <div href="#" class="text-gray-700 transition hover:opacity-75">
+                  <Link href='/empresa'>Nuestra Empresa</Link>
+                </div>
+              </li>
+
+              <li>
+                <div href="#" class="text-gray-700 transition hover:opacity-75">
+                  <Link href='/team'>Equipo</Link>
+                </div>
+              </li>
+
+              <li>
+                <div href="#" class="text-gray-700 transition hover:opacity-75">
+                  <Link href='/work'>Sostenibilidad</Link>
+                </div>
+              </li>
+
+             
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <p class="font-bold text-[#0B5DA0]">Productos</p>
+
+          <nav aria-label="Footer Navigation - Company" class="mt-6">
+            <ul class="space-y-4 text-sm">
+              <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Nuestra Empresa
+                  Pacchar Pure
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Equipo
+                  Compost
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Sostenibilidad
+                  COMBI
                 </a>
               </li>
-
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  HR Consulting
+                  Vermichar
                 </a>
               </li>
-
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  SEO Optimisation
+                  Inoculantes
                 </a>
               </li>
             </ul>
@@ -182,51 +209,25 @@ const Footer = () => {
         </div>
 
         <div>
-          <p class="font-medium text-gray-900">Productos</p>
+          <p class="font-bold text-[#0B5DA0]">Mitigacion</p>
 
           <nav aria-label="Footer Navigation - Company" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  About
+                  Secuestro del carbono
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Meet the Team
+                  Carbono organico del suelo
                 </a>
               </li>
 
               <li>
                 <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Accounts Review
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <div>
-          <p class="font-medium text-gray-900">Mitigacion</p>
-
-          <nav aria-label="Footer Navigation - Company" class="mt-6">
-            <ul class="space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Contact
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  FAQs
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
-                  Live Chat
+                  Neutralidad del carbono
                 </a>
               </li>
             </ul>
