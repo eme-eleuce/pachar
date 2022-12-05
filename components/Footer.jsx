@@ -7,31 +7,31 @@ const Footer = () => {
   return (
     <footer>
   <div
-    class="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:px-6 lg:space-y-10 lg:px-8"
+    className="max-w-[1240px] px-4 py-8 mx-auto space-y-8 sm:px-6 lg:space-y-10 lg:px-5 "
   >
-    <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-      <div className=''>
-        <div className="ml-[6rem] md:ml-0">
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div className='lg:ml-8'>
+        <div className="ml-[6.5rem] md:ml-0">
           <Image src={Logo1} className='w-[15rem] h-[8rem] ' alt='/'/>
         </div>
 
-        <p class="max-w-xs  text-gray-500 text-center md:text-left">
+        <p className="max-w-xs  text-gray-500 text-center md:text-left lg:ml-0 ml-[4.2rem]">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
           cupiditate quae nam molestias.
         </p>
 
-        <ul class="flex gap-6 mt-8">
+        <ul className="flex gap-6 mt-8 lg:ml-0 ml-[7.5rem]">
           <li>
             <a
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75"
+              className="text-gray-700 transition hover:opacity-75"
             >
-              <span class="sr-only">Facebook</span>
+              <span className="sr-only">Facebook</span>
 
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -50,12 +50,12 @@ const Footer = () => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75"
+              className="text-gray-700 transition hover:opacity-75"
             >
               <span class="sr-only">Instagram</span>
 
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -74,12 +74,12 @@ const Footer = () => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75"
+              className="text-gray-700 transition hover:opacity-75"
             >
               <span class="sr-only">Twitter</span>
 
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -96,12 +96,12 @@ const Footer = () => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75"
+              className="text-gray-700 transition hover:opacity-75"
             >
-              <span class="sr-only">GitHub</span>
+              <span className="sr-only">GitHub</span>
 
               <svg
-                class="w-6 h-6"
+                className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -120,9 +120,9 @@ const Footer = () => {
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75"
+              className="text-gray-700 transition hover:opacity-75"
             >
-              <span class="sr-only">Dribbble</span>
+              <span className="sr-only">Dribbble</span>
 
               <svg
                 class="w-6 h-6"
@@ -142,27 +142,27 @@ const Footer = () => {
       </div>
 
       <div
-        class="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 mt-12"
+        className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4 mt-[4rem] lg:ml-[9rem] ml-8"
       >
         <div>
-          <p class="font-bold text-[#0B5DA0]"> Empresa</p>
+          <p className="font-bold text-[#0B5DA0] text-lg"> Empresa</p>
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
-            <ul class="space-y-4 text-sm">
+            <ul className="space-y-4 text-sm">
               <li>
-                <div href="#" class="text-gray-700 transition hover:opacity-75">
+                <div href="#" className="text-gray-700 transition hover:opacity-75">
                   <Link href='/empresa'>Nuestra Empresa</Link>
                 </div>
               </li>
 
               <li>
-                <div href="#" class="text-gray-700 transition hover:opacity-75">
+                <div href="#" className="text-gray-700 transition hover:opacity-75">
                   <Link href='/team'>Equipo</Link>
                 </div>
               </li>
 
               <li>
-                <div href="#" class="text-gray-700 transition hover:opacity-75">
+                <div href="#" className="text-gray-700 transition hover:opacity-75">
                   <Link href='/work'>Sostenibilidad</Link>
                 </div>
               </li>
@@ -173,34 +173,34 @@ const Footer = () => {
         </div>
 
         <div>
-          <p class="font-bold text-[#0B5DA0]">Productos</p>
+          <p class="font-bold text-[#0B5DA0] text-lg">Productos</p>
 
           <nav aria-label="Footer Navigation - Company" class="mt-6">
-            <ul class="space-y-4 text-sm">
+            <ul className="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   Pacchar Pure
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   Compost
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   COMBI
                 </a>
               </li>
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   Vermichar
                 </a>
               </li>
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   Inoculantes
                 </a>
               </li>
@@ -209,24 +209,24 @@ const Footer = () => {
         </div>
 
         <div>
-          <p class="font-bold text-[#0B5DA0]">Mitigacion</p>
+          <p className="font-bold text-[#0B5DA0] text-lg">Mitigacion</p>
 
-          <nav aria-label="Footer Navigation - Company" class="mt-6">
-            <ul class="space-y-4 text-sm">
+          <nav  className="mt-6">
+            <ul className="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   Secuestro del carbono
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   Carbono organico del suelo
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" className="text-gray-700 transition hover:opacity-75">
                   Neutralidad del carbono
                 </a>
               </li>
@@ -238,7 +238,7 @@ const Footer = () => {
       </div>
     </div>
 
-    <p class="text-xs text-gray-500">
+    <p className="text-sm font-bold text-[#006535] lg:ml-5">
       &copy; 2022. Pacchar. All rights reserved.
     </p>
   </div>

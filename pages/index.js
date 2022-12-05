@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Section1 from '../components/Section1'
+import Section2 from '../components/Section2'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Section1 />
+      <Section2 />
       
       
       

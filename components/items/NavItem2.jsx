@@ -1,6 +1,7 @@
 import React, {Fragment,useState} from 'react'
 import { IoIosArrowDown } from 'react-icons/io'
 import { Menu, Transition } from '@headlessui/react';
+import Link from 'next/link';
 
 
 function classNames(...classes) {
@@ -30,6 +31,7 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
       >
        <Menu.Items className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-[#C7C7C7] shadow-lg   focus:outline-none">
           <div className="py-1">
+          <Link href='/productos'>
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -39,10 +41,11 @@ const NavItem = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  {subname1}
+                  {subname1} 
                 </a>
               )}
             </Menu.Item>
+            </Link> 
             <Menu.Item>
               {({ active }) => (
                 <a
