@@ -42,9 +42,11 @@ const Navbar = () => {
             
             
             <ul  className='hidden sm:flex '>
+            <Link href='/'>
                 <li className='p-3 ml-5 text-2xl hover:text-[#0B5DA0]'>
-                     <Link href='/'> Home </Link>
+                      Home 
                 </li>
+            </Link>
                 
                 <li className='p-3 ml-4 hover:text-[#0B5DA0]'>
                 
@@ -52,7 +54,7 @@ const Navbar = () => {
                  name='Empresa'
                  subname1='Nuestra Empresa'
                  subname2='Equipo'
-                 subname3='Sostenibilidad'
+                 
                  />
                 
                 </li>
@@ -67,7 +69,7 @@ const Navbar = () => {
                 </li>
                 <li className='p-3 ml-3  hover:text-[#0B5DA0]'>
                 <NavItem3
-                 name='Mitigacion'
+                 name='Sostenibilidad'
                  subname1='Secuestro del Carbono'
                  subname2='Carbono organico del suelo'
                  subname3='Neutralidad del carbono'

@@ -1,11 +1,12 @@
 import React from 'react'
-import Sostenibilidad from '../components/about/Sostenibilidad'
+
+import Neutro from '../components/sostenibilidad/Neutro'
 
 const work = () => {
   return (
     <div>
 
-   <Sostenibilidad />
+   <Neutro />
     </div>
   )
 }

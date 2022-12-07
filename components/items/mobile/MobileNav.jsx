@@ -49,13 +49,7 @@ leaveTo="transform opacity-0 scale-95"
         Nuestra Empresa
       </Disclosure.Panel>
       <Disclosure.Panel  className="px-2 pt-2 pb-1 text-xl text-[#E9E9EB] ">
-        <Link onClick={() => setNav(false)} href='/team'>Equipo</Link>
-      </Disclosure.Panel>
-      <Disclosure.Panel onClick={() => setNav(false)} className="px-2 pt-2 pb-1 text-xl text-[#E9E9EB] ">
-        Sostenibilidad
-      </Disclosure.Panel>
-      <Disclosure.Panel onClick={() => setNav(false)} className="px-2 pt-2 pb-1 text-xl text-[#E9E9EB] ">
-        Alliances
+        <Link  href='/team' onClick={() => setNav(false)}>Equipo</Link>
       </Disclosure.Panel>
       </Transition>
     </>
@@ -109,7 +103,7 @@ leaveTo="transform opacity-0 scale-95"
   {({ open }) => (
     <>
       <Disclosure.Button className="flex  justify-between       ">
-        <span> Mitigacion</span>
+        <span> Sostenibilidad</span>
         <IoIosArrowUp
           className={`${
             open ? 'rotate-180 transform ease-in duration-200' : ''
@@ -131,8 +125,8 @@ leaveTo="transform opacity-0 scale-95"
       <Disclosure.Panel onClick={() => setNav(false)} className="px-1 pt-2 pb-1 text-xl text-[#E9E9EB] ">
         Carbono organico del suelo
       </Disclosure.Panel>
-      <Disclosure.Panel onClick={() => setNav(false)} className="px-1 pt-2 pb-1 text-xl text-[#E9E9EB] ">
-        Neutralidad del carbono
+      <Disclosure.Panel  className="px-1 pt-2 pb-1 text-xl text-[#E9E9EB] ">
+         <Link href='/sos-1' onClick={() => setNav(false)}> Neutralidad del carbono</Link> 
       </Disclosure.Panel>
       </Transition>
     </>

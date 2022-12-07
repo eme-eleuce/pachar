@@ -59,6 +59,7 @@ const NavItem3 = ({name, subname1,subname2, subname3, subname4, subname5}) => {
               )}
             </Menu.Item>
             </Link>
+            <Link href='/sos-1'>
             <Menu.Item>
               {({ active }) => (
                 <a
@@ -72,20 +73,7 @@ const NavItem3 = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 </a>
               )}
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'text-[#0B5DA0]' : 'text-black',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  {subname4}
-                </a>
-              )}
-            </Menu.Item>
-            
+            </Link>
           </div>
         </Menu.Items>
       </Transition>
