@@ -43,7 +43,7 @@ const Navbar = () => {
             
             <ul  className='hidden sm:flex '>
             <Link href='/'>
-                <li className='p-3 ml-5 text-2xl hover:text-[#0B5DA0]'>
+                <li className='p-3  text-2xl hover:text-[#0B5DA0]'>
                       Home 
                 </li>
             </Link>

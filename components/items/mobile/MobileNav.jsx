@@ -45,8 +45,8 @@ leave="transition ease-in duration-100"
 leaveFrom="transform opacity-100 scale-y-100"
 leaveTo="transform opacity-0 scale-95"
 >
-      <Disclosure.Panel onClick={() => setNav(false)} className="px-2 pt-2 pb-1 text-xl text-[#E9E9EB] ">
-        Nuestra Empresa
+      <Disclosure.Panel  className="px-2 pt-2 pb-1 text-xl text-[#E9E9EB] ">
+      <Link  href='/empresa' onClick={() => setNav(false)}> Nuestra Empresa </Link>
       </Disclosure.Panel>
       <Disclosure.Panel  className="px-2 pt-2 pb-1 text-xl text-[#E9E9EB] ">
         <Link  href='/team' onClick={() => setNav(false)}>Equipo</Link>

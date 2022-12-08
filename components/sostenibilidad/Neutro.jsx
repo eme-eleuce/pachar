@@ -8,7 +8,7 @@ const Neutro = () => {
         <title>Neutralidad del carbono</title>
         <link rel="icon" href="./logo/logo3.png" />
     </Head>
-    <section>
+    <div>
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
       
       <h1 className='text-center text-4xl py-10 mb-16'> Neutralidad del Carbono </h1>
@@ -24,7 +24,7 @@ const Neutro = () => {
         </div>
   
         <div class="lg:py-16">
-          <article class="space-y-4 text-gray-600 text-xl text-justify">
+          <div class="space-y-4 text-gray-600 text-lg md:text-xl text-justify">
            
            <p>
                     
@@ -65,11 +65,11 @@ la agricultura vuelva a ser una actividad de captura de carbono, vital para miti
              Netflix - Kiss the ground</a>
              </p>
           </p>
-          </article>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
   
   </>
   )
