@@ -15,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="./logo/logo3.png" />
       </Head>
       <Hero />
-      <Section1 />
       <Section2 />
+      <Section1 />
       
       
       
