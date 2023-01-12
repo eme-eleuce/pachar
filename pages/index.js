@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Numeros from '../components/about/Numeros'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Section1 from '../components/Section1'
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Section2 />
       <Section1 />
+      <Numeros />
       
       
       

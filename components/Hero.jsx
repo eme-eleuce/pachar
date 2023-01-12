@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from 'react-typed';
-import {BsArrowBarDown} from 'react-icons/bs';
+import {IoIosArrowDown} from 'react-icons/io';
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../public/logo/PACCHAR-blanco.png"
@@ -32,8 +32,8 @@ const Hero = () => {
               
             </div>
             <div className='absolute justify-center mt-[36rem] lg:mt-[34.5rem] md:mt-[34rem] text-[#E9E9EB] cursor-pointer'>
-            <Link href='/#section1' scroll={false}>
-               <BsArrowBarDown size={42}/>
+            <Link href='/#section2' scroll={false}>
+               <IoIosArrowDown size={42}/>
             </Link>
               </div>
         </div>

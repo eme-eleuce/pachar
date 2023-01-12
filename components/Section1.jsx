@@ -4,60 +4,49 @@ import { motion, useAnimation } from 'framer-motion';
 const Section1 = () => {
   return (
     
-<div id='section1' className=" max-w-[1240px] mx-auto text-center py-10">
-  <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
-    
-    <div className="lg:flex-grow md:w-1/2  flex flex-col  items-center text-center">
-    
-    <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 10, y: 0 }}
-              transition={{duration: 1, delay: 0}}
-       
-  >
-      <h1 className=" sm:text-4xl text-3xl py-16 font-bold text-gray-900 text-center"> En Pacchar
-      
-      </h1>
-      </motion.div>
-      <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 10, y: 0 }}
-              transition={{duration: 1, delay: 0.5}}
-       
-  >  
-      <p className="py-10 lg:px-8 lg:text-center text-left text-2xl lg:text-3xl"> Creamos valor a partir de residuos forestales y agropecuarios mediante procesos de Pirólisis y Compostaje para producir biochar, compost y otros productos orgánicos derivados, evitando la quema o descomposición de la biomasa a gases de efecto invernadero.</p>
-      </motion.div>
-      <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 10, y: 0 }}
-              transition={{duration: 1, delay: 1}}
-       
-  >  
-      <p className="py-10 lg:text-center text-left text-2xl">
-   
-      Introducimos nuestros productos a agricultores y empresas locales para favorecer su productividad y sostenibilidad, reducir su dependencia  a los agroquímicos.
 
-      </p>
-  </motion.div>
-  <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 10, y: 0 }}
-              transition={{duration: 1, delay: 1.4}}
+<section class="flex items-center justify-center py-10 w-full pt-7 pb-7 md:pt-20 md:pb-24 mt-10">
+    <div class="relative max-w-3xl px-10 text-center  auto lg:px-0">
+        <div class="flex flex-col w-full md:flex-row">
+
+            
+            <div class="flex justify-between mr-10">
+                <h1 class="relative flex flex-col text-6xl font-extrabold text-left text-black">
+                  Que es
+                    <span class="">Biochar?</span>
+                </h1>
+            </div>
+            
+            <div class="relative top-0 right-0 h-64 mt-12 md:-mt-16 md:absolute md:h-96">
+                <img src="https://cdn.devdojo.com/images/december2020/designs3d.png" class="object-cover mt-3 mr-5 h-80 lg:h-96"/>
+            </div>
+        </div>
+
        
-  >  
-      <p className="py-10 lg:text-center text-left text-2xl">
-   
-      Crear modelos de economía circular, reducir la huella de carbono y regenerar la salud de los suelos, aportando así a la producción de alimentos saludables, a la rehabilitación de funciones ecosistémicas y con ellos a la calidad de vida de las familias ecuatorianas.
+        <div class="my-16 border-b border-gray-300 lg:my-24"></div>
 
-
-      </p>
-  </motion.div>
-      <div className="flex justify-center">
         
-      </div>
+        <h2 class="text-left text-gray-500 xl:text-xl mb-10">
+        Material sólido y poroso alto en carbono orgánico hecho a partir de biomasa residual a temperaturas entre 300-700 °C en una atmósfera sin oxígeno.
+        </h2>
+
+        <div class=" top-0 right-0 h-64 mt-12 md:-mt-16 p-2  pr-5 xl:pl-16 xl:pr-20 mb-[4rem] md:mb-[8rem] md:h-96">
+        <img src="https://cdn.devdojo.com/images/december2020/productivity.png" className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20"/>
+
+            </div>
+
+            <h2 class="text-left text-gray-500 xl:text-xl mb-[4rem] md:mb-[6rem] ">
+            Este material es resistente a la descomposición biológica y puede usarse, entre otras aplicaciones, como enmienda para suelos agrícolas, regenerando o potenciando sus funciones biogeoquímicas.
+        </h2>
+
+        <div class=" top-0 right-0 h-64 mt-12 md:-mt-16 p-2  pr-5 xl:pl-16 xl:pr-20  md:h-96">
+        <img src="https://cdn.devdojo.com/images/december2020/productivity.png" className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20"/>
+
+            </div>
+       
     </div>
-  </div>
-</div>
+</section>
+
     
   )
 }
