@@ -8,7 +8,7 @@ const Section2 = () => {
     <div className="box-border mb-8 flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 
         
-        <div className="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+        <div className="box-border relative w-full max-w-md px-4 mt-5 mb-4  text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
         <motion.div
               initial={{ opacity: 0, x: 10 }}
               whileInView={{ opacity: 10, x: 0 }}
@@ -81,11 +81,11 @@ const Section2 = () => {
        
   >
             <h2 className="m-0 text-xl text-green-600 font-bold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl text-left">
-            Creamos modelos de economía circular, reducimos la huella de carbono y regeneramos la salud de los suelos
+            Agricultura del Carbono y Economía Circular
             </h2>
             </motion.div>
             <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg ">
-            Favoreciendo la producción de alimentos saludables, a la rehabilitación de funciones ecosistémicas y con ellos a la calidad de vida de las familias ecuatorianas.
+           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>. El suelo es un recurso vivo que contiene carbono (SOC) y entre sus funciones naturales está reciclar nutrientes para las futuras generaciones de seres vivos. La agricultura regenerativa del carbono consiste en emular estas funciones naturales del suelo para producir alimentos eficientemente, transformando residuos en insumos útiles para los próximos ciclos de cultivo, volviendo así a la agricultura en un modelo de economía circular.
             </p>
            
         </div>

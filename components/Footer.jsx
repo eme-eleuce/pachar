@@ -13,19 +13,19 @@ const Footer = () => {
   >
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div className='lg:ml-8'>
-        <div className="ml-[3rem] md:ml-0">
+        <div className="">
           <Image src={Logo1} className='w-[15rem] h-[8rem] ' alt='/'/>
         </div>
 
-        <div className="max-w-xs  text-gray-500 text-center md:text-left lg:ml-0 ml-[0.8rem]">
+        <div className="max-w-xs ml-8 lg:ml-0 text-gray-500 text-left md:text-left ">
        
 Av. Francisco de Orellana #111 y Av. Plaza Dañín, Oficina 52
 <p>Guayaquil, Ecuador</p>
-<p className='flex items-center justify-center lg:justify-start '><BsTelephoneFill className='mr-1' size={20}/> +593 93 9928517  </p>
+<p className='flex items-center justify-start '><BsTelephoneFill className='' size={20}/> +593 93 9928517  </p>
 
         </div>
 
-        <ul className="flex gap-6 mt-8 lg:ml-0 ml-[8.5rem] items-center">
+        <ul className="flex gap-6 mt-8  ml-8 lg:ml-0 items-center">
           
 
           
@@ -33,7 +33,7 @@ Av. Francisco de Orellana #111 y Av. Plaza Dañín, Oficina 52
 
           <li>
             <a
-              href="/"
+              href="https://www.linkedin.com/company/pacchar/"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:opacity-75"
@@ -46,7 +46,7 @@ Av. Francisco de Orellana #111 y Av. Plaza Dañín, Oficina 52
 
           <li>
             <a
-              href="/"
+              href="https://www.instagram.com/pacchar.ec/"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:opacity-75"
