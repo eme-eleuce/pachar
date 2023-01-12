@@ -28,11 +28,11 @@ const Section2 = () => {
        
   >
             <h2 className="m-0 text-xl text-green-600 font-bold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl text-left">
-            En Pacchar, creamos valor a partir de residuos forestales y agropecuarios. 
+            En Pacchar creamos valor a partir de residuos forestales y agropecuarios
             </h2>
             </motion.div>
             <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg">
-            Mediante procesos de Pirólisis y Compostaje para producir biochar, compost y otros productos orgánicos derivados
+            Nuestras tecnologías de Pirólisis y Compostaje nos permiten producir biochar, compost y otros productos agroecológicos de alta calidad.
             </p>
            
         </div>
@@ -43,10 +43,10 @@ const Section2 = () => {
         
         <div className="box-border w-full text-green-600 border-solid md:w-1/2 md:pl-6 xl:pl-32">
             <h2 className="m-0 text-xl font-bold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-            Introducimos nuestros productos a agricultores y empresas locales
+            Servimos a nuestros agricultores, al medio ambiente y a la sociedad
             </h2>
             <p className="pt-4 pb-8 mt-6 leading-7 text-black border-0 border-gray-300 sm:pr-10 lg:text-lg">
-            Para favorecer su productividad y sostenibilidad, reducir su dependencia a los agroquímicos e evitar la quema o descomposición de la biomasa a gases de efecto invernadero.
+            Nuestra prioridad es <a className='text-green-600'> potenciar la salud y funciones naturales de los suelos </a>donde crecen nuestros alimentos mediante la restauración y almacenamiento de materia orgánica (SOM) y carbono orgánico (SOC) para favorecer la capacidad y autonomía de producción de nuestros agricultores, obteniendo así alimentos ricos en nutrientes naturales, agua limpia y reducción en la huella de carbono agrícola.
             </p>
             
         </div>
