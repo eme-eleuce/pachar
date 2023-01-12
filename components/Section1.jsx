@@ -6,11 +6,11 @@ const Section1 = () => {
     
 
 <section class="flex items-center justify-center py-10 w-full pt-7 pb-7 md:pt-20 md:pb-24 mt-10">
-    <div class="relative max-w-3xl px-10 text-center  auto lg:px-0">
+    <div class="relative max-w-3xl px-10 text-center items-center content-center  auto lg:px-0">
         <div class="flex flex-col w-full md:flex-row">
 
             
-            <div class="flex justify-between mr-10">
+            <div class="flex justify-between">
                 <h1 class="relative flex flex-col text-6xl font-extrabold text-left text-black">
                   Que es
                     <span class="">Biochar?</span>
