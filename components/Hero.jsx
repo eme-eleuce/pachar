@@ -21,10 +21,10 @@ const Hero = () => {
               <div className='flex justify-center items-center pt-[6rem]'>
               
               <Typed
-          className='absolute md:text-4xl text-4xl lg:text-4xl  md:pl-4 pl-2 text-white'
-            strings={['bienvenido', 'добро пожаловать', 'welcome', 'bem-vindo', 'accueillir', 'いらっしゃいませ', 'välkommen', 'xoş gəldiniz']}
-            typeSpeed={125}
-            backSpeed={110}
+          className='absolute md:text-4xl text-xl lg:text-4xl  md:pl-4 pl-2 text-white'
+            strings={['inteligencia de carbono', 'agricultura sostenible', 'recarbonizando los suelos', 'seguridad alimentaria', 'descarbonizando la atmósfera', 'economía circular']}
+            typeSpeed={130}
+            backSpeed={100}
             loop
           />
               </div>

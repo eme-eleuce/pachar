@@ -29,14 +29,14 @@ const NavItem3 = ({name, subname1,subname2, subname3, subname4, subname5}) => {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-       <Menu.Items className="absolute right-0 z-10 mt-2 w-[15rem] origin-top-left rounded-md bg-[#C7C7C7] shadow-lg focus:outline-none">
+       <Menu.Items className="absolute right-0 z-10 mt-2 w-[15rem] origin-top-left rounded-md bg-[#181818] shadow-lg focus:outline-none">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'text-[#0B5DA0]' : 'text-black',
+                    active ? 'text-[#0B5DA0]' : 'text-white',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -50,7 +50,7 @@ const NavItem3 = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 <a
                   
                   className={classNames(
-                    active ? 'text-[#0B5DA0]' : 'text-black',
+                    active ? 'text-[#0B5DA0]' : 'text-white',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -65,7 +65,7 @@ const NavItem3 = ({name, subname1,subname2, subname3, subname4, subname5}) => {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'text-[#0B5DA0]' : 'text-black',
+                    active ? 'text-[#0B5DA0]' : 'text-white',
                     'block px-4 py-2 text-sm'
                   )}
                 >

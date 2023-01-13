@@ -15,7 +15,7 @@ const MobileNav = () => {
 
   return (
     <>
-    <div onClick={handleNav} className='block sm:hidden z-10 items-right'>
+    <div onClick={handleNav} className='block sm:hidden z-10 items-right '>
     {nav ? <AiOutlineClose size={25} />  : <AiOutlineMenu size={25} />}
   </div>
 

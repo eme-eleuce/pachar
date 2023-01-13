@@ -14,16 +14,16 @@ const Navbar = () => {
 
     const [nav, setNav] = useState(false);
     const [color, setColor] = useState('transparent');
-    const [textColor, setTextColor] = useState('white');
+    const [textColor, setTextColor] = useState('black');
     
 
     useEffect(() => {
 
         const changeColor = () => {
 
-            if (window.scrollY >= 60) {
+            if (window.scrollY >= 0) {
                  
-                setColor('#C7C7C7')
+                setColor('#181818')
                 
             } else {
 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
 
   return (
-    <div style={{backgroundColor: `${color}`}} className='fixed top-0 left-0 w-full z-10 ease duration-500'>
+    <div style={{backgroundColor: `${color}`}} className='fixed top-0 left-0 w-full z-10 ease duration-500 text-white'>
         <div className='max-w-[1240px] m-auto flex justify-center items-center p-4 py-2 '>
             
             

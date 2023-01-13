@@ -149,7 +149,7 @@ Av. Francisco de Orellana #111 y Av. Plaza Dañín, Oficina 52
     </div>
 
     <p className="text-sm font-bold text-[#006535] lg:ml-5">
-      &copy; 2022. Pacchar. All rights reserved.
+      &copy; Pacchar. All rights reserved.
     </p>
   </div>
 </footer>
