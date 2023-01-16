@@ -28,7 +28,7 @@ const Section2 = () => {
        
   >
             <h2 className="m-0 text-xl text-green-600 font-bold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl text-left">
-            En Pacchar creamos valor a partir de residuos forestales y agropecuarios
+            En Pacchar creamos valor a partir de residuos agroforestales
             </h2>
             </motion.div>
             <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg">
@@ -43,10 +43,10 @@ const Section2 = () => {
         
         <div className="box-border w-full text-green-600 border-solid md:w-1/2 md:pl-6 xl:pl-32">
             <h2 className="m-0 text-xl font-bold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-            Servimos a nuestros agricultores, al medio ambiente y a la sociedad
+            Servimos a nuestros agricultores, a la sociedad y a la Pachamama
             </h2>
             <p className="pt-4 pb-8 mt-6 leading-7 text-black border-0 border-gray-300 sm:pr-10 lg:text-lg">
-            Nuestra prioridad es <a className='text-green-600'> potenciar la salud y funciones naturales de los suelos </a>donde crecen nuestros alimentos mediante la restauración y almacenamiento de materia orgánica (SOM) y carbono orgánico (SOC) para favorecer la capacidad y autonomía de producción de nuestros agricultores, obteniendo así alimentos ricos en nutrientes naturales, agua limpia y reducción en la huella de carbono agrícola.
+            Nuestra prioridad es potenciar la <a className='text-green-600'> salud y funciones naturales de los suelos </a>mediante la restauración y almacenamiento de <a className='text-green-600'>carbono orgánico (SOC) y biodiversidad</a> para favorecer la capacidad y autonomía de producción de nuestros agricultores, obteniendo alimentos más sanos, agua limpia y reduciendo la huella de carbono agropecuaria.
             </p>
             
         </div>
@@ -85,7 +85,7 @@ const Section2 = () => {
             </h2>
             </motion.div>
             <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg ">
-           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>. El suelo es un recurso vivo que contiene carbono (SOC) y entre sus funciones naturales está reciclar nutrientes para las futuras generaciones de seres vivos. La agricultura regenerativa del carbono consiste en emular estas funciones naturales del suelo para producir alimentos eficientemente, transformando residuos en insumos útiles para los próximos ciclos de cultivo, volviendo así a la agricultura en un modelo de economía circular.
+           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>y el suelo es un recurso vivo que lo contiene, entre sus funciones naturales está <a className='text-green-600'>reciclar nutrientes</a> para las futuras generaciones de seres vivos.funciones naturales está reciclar nutrientes para las futuras generaciones de seres vivos. La agricultura regenerativa del carbono consiste en emular estas funciones naturales del suelo para producir alimentos eficientemente,<a className='text-green-600'>transformando residuos en insumos útiles</a> para los próximos ciclos de cultivo, volviendo así a la agricultura en un modelo de economía circular.
             </p>
            
         </div>
