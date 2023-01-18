@@ -14,14 +14,15 @@ const Team1 = () => {
       <h1 className="text-2xl font-medium title-font mb-4 text-gray-900">Conoce a nuestros integrantes</h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably havent heard of them.</p>
     </div>
-    <div className="flex flex-wrap -m-4">
+    <div className="flex flex-wrap ">
       <div className="p-4 lg:w-1/4 md:w-1/2">
         <div className="h-full flex flex-col items-center text-center">
          {/* Foto 1*/}
           <div className="w-full">
-            <h2 className="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
-            <h3 className="text-gray-500 mb-3">UI Developer</h3>
-            <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 className="title-font font-medium text-lg text-gray-900">Carlos Gonzalez</h2>
+            <h3 className="text-gray-500 mb-3">CEO y Co-Fundador</h3>
+            <p className="mb-4">Ing. Agroindustrial y Agronegocios - UCSG</p>
+            <p className='mb-4'> Master in Soil and Crop Sciences - Cornell University </p>
             <span className="inline-flex">
               <a className="text-gray-500">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -46,9 +47,9 @@ const Team1 = () => {
         <div className="h-full flex flex-col items-center text-center">
           {/* Foto 1 flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4*/}
           <div className="w-full">
-            <h2 className="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
-            <h3 className="text-gray-500 mb-3">UI Developer</h3>
-            <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 className="title-font font-medium text-lg text-gray-900">Victor Rojas</h2>
+            <h3 className="text-gray-500 mb-3">COO y Co-Fundador</h3>
+            <p className="mb-4">Ing. Agropecuario y Agronegocios - UCSG</p>
             <span className="inline-flex">
               <a className="text-gray-500">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -73,9 +74,10 @@ const Team1 = () => {
         <div className="h-full flex flex-col items-center text-center">
           {/* Foto 1*/}
           <div className="w-full">
-            <h2 className="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
-            <h3 className="text-gray-500 mb-3">UI Developer</h3>
-            <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 className="title-font font-medium text-lg text-gray-900">Gabriel Gonzalez</h2>
+            <h3 className="text-gray-500 mb-3">Gerencia Técnica y Desarrollos</h3>
+            <p className="mb-4">Ing. Agrónomo - EARTH University</p>
+            <p className="mb-4">Maestría en Agricultura Tropical Sostenible - EAP Zamorano</p>
             <span className="inline-flex">
               <a className="text-gray-500">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -100,9 +102,9 @@ const Team1 = () => {
         <div className="h-full flex flex-col items-center text-center">
           {/* Foto 1*/}
           <div className="w-full">
-            <h2 className="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
-            <h3 className="text-gray-500 mb-3">UI Developer</h3>
-            <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 className="title-font font-medium text-lg text-gray-900">David Rojas</h2>
+            <h3 className="text-gray-500 mb-3">Gerencia de Operaciones</h3>
+            <p className="mb-4">Ing. Agropecuario - EAP Zamorano</p>
             <span className="inline-flex">
               <a className="text-gray-500">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

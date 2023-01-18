@@ -85,7 +85,7 @@ const Section2 = () => {
             </h2>
             </motion.div>
             <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg ">
-           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>y el suelo es un recurso vivo que lo contiene, entre sus funciones naturales está <a className='text-green-600'>reciclar nutrientes</a> para las futuras generaciones de seres vivos.funciones naturales está reciclar nutrientes para las futuras generaciones de seres vivos. La agricultura regenerativa del carbono consiste en emular estas funciones naturales del suelo para producir alimentos eficientemente,<a className='text-green-600'>transformando residuos en insumos útiles</a> para los próximos ciclos de cultivo, volviendo así a la agricultura en un modelo de economía circular.
+           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>y el suelo es un recurso vital que naturalmente lo contiene.<a className='text-green-600'> La agricultura regenerativa del carbono </a>consiste en restaurar este elemento para emular y potenciar las funciones naturales del suelo en sistemas agropecuarios, <a className='text-green-600'> esto permite producir alimentos con más eficiencia </a>y transformar los residuos en insumos útiles para los próximos ciclos de cultivo, así la agricultura se convierte en un sistema de economía circular.
             </p>
            
         </div>

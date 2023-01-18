@@ -70,8 +70,8 @@ const Navbar = () => {
                 <li className='p-3 ml-3  hover:text-[#0B5DA0]'>
                 <NavItem3
                  name='Sostenibilidad'
-                 subname1='Secuestro del Carbono'
-                 subname2='Carbono organico del suelo'
+                 subname1='Agricultura del Carbono'
+                 subname2='Compesaciones del carbono'
                  subname3='Neutralidad del carbono'
                 />
                 </li>
