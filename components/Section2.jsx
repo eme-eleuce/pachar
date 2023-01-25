@@ -19,7 +19,7 @@ const Section2 = () => {
               transition={{duration: 1, delay: 1}}
        
   >
-            <Image src={Foto1}/>
+            <Image src={Foto1} alt='/'/>
             </motion.div>
         </div>
 
@@ -58,7 +58,7 @@ const Section2 = () => {
 
         
         <div className="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-        <Image src={Foto2}/>
+        <Image src={Foto2} alt='/'/>
         </div>
         
     </div>

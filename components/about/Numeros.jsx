@@ -70,7 +70,7 @@ const Numeros = () => {
     <div className=" mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 " >
         <div className="w-full pt-1 pb-5">
             <div className="overflow-hidden rounded-full w-[8rem] h-[8rem] lg:w-[13rem] lg:h-[13rem] -mt-16 mx-auto shadow-lg">
-               <Image src={Foto1} />
+               <Image src={Foto1} alt='/'/>
             </div>
         </div>
         <div className="w-full mb-10">
@@ -89,7 +89,7 @@ const Numeros = () => {
     <div className=" mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 " >
         <div className="w-full pt-1 pb-5">
             <div className="overflow-hidden rounded-full w-[8rem] h-[8rem] lg:w-[13rem] lg:h-[13rem] -mt-16 mx-auto shadow-lg">
-                <Image src={Foto2} />
+                <Image src={Foto2} alt='/'/>
             </div>
         </div>
         <div className="w-full mb-10">
