@@ -1,5 +1,9 @@
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import Image from 'next/image'; 
+import Foto1 from '../public/fotos/foto1.png'
+import Foto2 from '../public/fotos/foto2.png'
+import Foto3 from '../public/fotos/foto3.png'
 
 const Section2 = () => {
   return (
@@ -15,7 +19,7 @@ const Section2 = () => {
               transition={{duration: 1, delay: 1}}
        
   >
-            <img src="https://cdn.devdojo.com/images/december2020/productivity.png" className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20"/>
+            <Image src={Foto1}/>
             </motion.div>
         </div>
 
@@ -32,13 +36,13 @@ const Section2 = () => {
             </h2>
             </motion.div>
             <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg">
-            Nuestras tecnologías de Pirólisis y Compostaje nos permiten producir biochar, compost y otros productos agroecológicos de alta calidad.
+            Nuestras tecnologías de Pirólisis y Compostaje nos permiten producir biochar, compost y otros productos agroecológicos de alta calidad con materias primas de fuentes responsables
             </p>
            
         </div>
         
     </div>
-    <div className="box-border mb-8 flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6  border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+    <div className="box-border mb-8 flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6  border-0 border-gray-300 border-solid md:mt-[6rem] xl:mt-0 md:flex-row max-w-7xl lg:px-16">
 
         
         <div className="box-border w-full text-green-600 border-solid md:w-1/2 md:pl-6 xl:pl-32">
@@ -46,7 +50,7 @@ const Section2 = () => {
             Servimos a nuestros agricultores, a la sociedad y a la Pachamama
             </h2>
             <p className="pt-4 pb-8 mt-6 leading-7 text-black border-0 border-gray-300 sm:pr-10 lg:text-lg">
-            Nuestra prioridad es potenciar la <a className='text-green-600'> salud y funciones naturales de los suelos </a>mediante la restauración y almacenamiento de <a className='text-green-600'>carbono orgánico (SOC) y biodiversidad</a> para favorecer la capacidad y autonomía de producción de nuestros agricultores, obteniendo alimentos más sanos, agua limpia y reduciendo la huella de carbono agropecuaria.
+            Nuestra prioridad es potenciar la <a className='text-green-600'> salud y funciones naturales de los suelos </a>mediante la restauración y almacenamiento de <a className='text-green-600'>carbono orgánico (SOC) y biodiversidad</a> favoreciendo la capacidad y autonomía de producción de nuestros agricultores, obteniendo alimentos más sanos, agua limpia y reduciendo la huella de carbono atmosférico.
             </p>
             
         </div>
@@ -54,11 +58,11 @@ const Section2 = () => {
 
         
         <div className="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-            <img src="https://cdn.devdojo.com/images/december2020/settings.png" className="pl-4 sm:pr-10 xl:pl-10 lg:pr-32"/>
+        <Image src={Foto2}/>
         </div>
         
     </div>
-    <div className="box-border mb-8 flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+    <div className="box-border md:mt-[5rem] mb-8 flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 
         
         <div className=" border-b-2 md:border-b-0 box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
@@ -68,7 +72,7 @@ const Section2 = () => {
               transition={{duration: 1, delay: 1}}
        
   >
-            <img src="https://cdn.devdojo.com/images/december2020/productivity.png" className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20"/>
+            <Image src={Foto3} />
             </motion.div>
         </div>
 
@@ -85,7 +89,7 @@ const Section2 = () => {
             </h2>
             </motion.div>
             <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg ">
-           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>y el suelo es un recurso vital que naturalmente lo contiene.<a className='text-green-600'> La agricultura regenerativa del carbono </a>consiste en restaurar este elemento para emular y potenciar las funciones naturales del suelo en sistemas agropecuarios, <a className='text-green-600'> esto permite producir alimentos con más eficiencia </a>y transformar los residuos en insumos útiles para los próximos ciclos de cultivo, así la agricultura se convierte en un sistema de economía circular.
+           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>y el suelo es un recurso vital que naturalmente lo contiene.<a className='text-green-600'> La agricultura regenerativa del carbono </a>consiste en devolver este elemento para así emular las funciones naturales del suelo en sistemas agropecuarioss,  esto permite producir alimentos con más <a className='text-green-600'>eficiencia y sostenibilidad </a>al transformar los residuos en insumos útiles para los próximos ciclos de cultivo, así la agricultura se convierte en un sistema de economía circular.
             </p>
            
         </div>

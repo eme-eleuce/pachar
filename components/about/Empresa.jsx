@@ -93,6 +93,42 @@ const Empresa = () => {
         
       </div>
     </div>
+    <div className=" flex items-center justify-center px-10 lg:px-[7rem] py-5 mt-[9rem]">
+    <div className="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 " >
+        <div className="w-full pt-1 pb-5">
+            <div className="overflow-hidden rounded-full w-[8rem] h-[8rem] lg:w-[13rem] lg:h-[13rem] -mt-16 mx-auto shadow-lg">
+               <Image src={Foto1} />
+            </div>
+        </div>
+        <div className="w-full mb-10">
+            <div className="text-3xl text-green-600 text-left leading-tight h-3">“</div>
+            <p className="text-md lg:text-2xl text-gray-500 text-center px-5">El biocarbón es una de las nuevas estrategias más emocionantes para restaurar el carbono en suelos mermados y secuestrar cantidades significativas de CO<a className='lowercase'>2</a>.</p>
+            <div className="text-3xl text-green-600 text-right leading-tight h-3 -mt-3">”</div>
+        </div>
+        <div className="w-full">
+            <p className="text-xl text-green-600 font-bold text-center">Al Gore</p>
+            
+        </div>
+    </div>
+</div>
+<div className=" flex items-center justify-center px-10 lg:px-[7rem] py-5 mt-[8rem] mb-10">
+    <div className="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 " >
+        <div className="w-full pt-1 pb-5">
+            <div className="overflow-hidden rounded-full w-[8rem] h-[8rem] lg:w-[13rem] lg:h-[13rem] -mt-16 mx-auto shadow-lg">
+                <Image src={Foto2} />
+            </div>
+        </div>
+        <div className="w-full mb-10">
+            <div className="text-3xl text-green-600 text-left leading-tight h-3">“</div>
+            <p className="text-md lg:text-2xl text-gray-500 text-center px-5">En esencia, la vida depende del suelo. No puede haber vida sin suelo y no hay suelo sin vida, han evolucionado juntos.</p>
+            <div className="text-3xl text-green-600 text-right leading-tight h-3 -mt-3">”</div>
+        </div>
+        <div className="w-full">
+            <p className="text-xl text-green-600 font-bold text-center">Charles Kellogg</p>
+           
+        </div>
+    </div>
+</div>
         
         
     </>
