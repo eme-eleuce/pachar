@@ -35,8 +35,8 @@ const Section2 = () => {
             En Pacchar creamos valor a partir de residuos agroforestales
             </h2>
             </motion.div>
-            <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg">
-            Nuestras tecnologías de Pirólisis y Compostaje nos permiten producir biochar, compost y otros productos agroecológicos de alta calidad con materias primas de fuentes responsables
+            <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg text-justify">
+            Nuestras tecnologías de Pirólisis y Compostaje nos permiten producir biochar, compost y otros productos agroecológicos de alta calidad con materias primas de fuentes responsables.
             </p>
            
         </div>
@@ -49,8 +49,8 @@ const Section2 = () => {
             <h2 className="m-0 text-xl font-bold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
             Servimos a nuestros agricultores, a la sociedad y a la Pachamama
             </h2>
-            <p className="pt-4 pb-8 mt-6 leading-7 text-black border-0 border-gray-300 sm:pr-10 lg:text-lg">
-            Nuestra prioridad es potenciar la <a className='text-green-600'> salud y funciones naturales de los suelos </a>mediante la restauración y almacenamiento de <a className='text-green-600'>carbono orgánico (SOC) y biodiversidad</a> favoreciendo la capacidad y autonomía de producción de nuestros agricultores, obteniendo alimentos más sanos, agua limpia y reduciendo la huella de carbono atmosférico.
+            <p className="pt-4 pb-8 mt-6 leading-7 text-black border-0 border-gray-300 sm:pr-10 lg:text-lg text-justify">
+            Nuestra prioridad es potenciar la <a className='text-green-600 font-extrabold'> salud y funciones naturales de los suelos </a>mediante la restauración y almacenamiento de <a className='text-green-600 font-extrabold'>carbono orgánico (SOC) y biodiversidad</a> favoreciendo la capacidad y autonomía de producción de nuestros agricultores, obteniendo alimentos más sanos, agua limpia y reduciendo la huella de carbono atmosférico.
             </p>
             
         </div>
@@ -88,8 +88,8 @@ const Section2 = () => {
             Agricultura del Carbono y Economía Circular
             </h2>
             </motion.div>
-            <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg ">
-           <a className='text-green-600'> El carbono es el motor de la vida en nuestro planeta </a>y el suelo es un recurso vital que naturalmente lo contiene.<a className='text-green-600'> La agricultura regenerativa del carbono </a>consiste en devolver este elemento para así emular las funciones naturales del suelo en sistemas agropecuarioss,  esto permite producir alimentos con más <a className='text-green-600'>eficiencia y sostenibilidad </a>al transformar los residuos en insumos útiles para los próximos ciclos de cultivo, así la agricultura se convierte en un sistema de economía circular.
+            <p className="pt-4 pb-8 mt-6 leading-7 border-0 border-gray-300 sm:pr-10 lg:text-lg text-justify">
+           <a className='text-green-600 font-extrabold'> El carbono es el motor de la vida en nuestro planeta </a>y el suelo es un recurso vital que naturalmente lo contiene.<a className='text-green-600 font-extrabold'> La agricultura regenerativa del carbono </a>consiste en devolver este elemento para así emular las funciones naturales del suelo en sistemas agropecuarioss,  esto permite producir alimentos con más <a className='text-green-600 font-extrabold'>eficiencia y sostenibilidad </a>al transformar los residuos en insumos útiles para los próximos ciclos de cultivo, así la agricultura se convierte en un sistema de economía circular.
             </p>
            
         </div>

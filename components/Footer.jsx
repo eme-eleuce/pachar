@@ -63,7 +63,7 @@ Av. Francisco de Orellana #111 y Av. Plaza Dañín, Oficina 52
         <div>
           <p className="font-bold text-[#0B5DA0] text-lg"> Empresa</p>
 
-          <nav aria-label="Footer Navigation - Services" className="mt-6">
+          <nav  className="mt-6">
             <ul className="space-y-4 text-sm">
               <li>
                 <div href="#" className="text-gray-700 transition hover:opacity-75">
